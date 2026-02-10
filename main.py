@@ -4,14 +4,6 @@ def crear_tablero(filas, columnas):
 
     return tablero
 
-
-def limite(filas, columnas): #creamos los limites del tablero
-    if filas < 0 or columnas < 0:
-        return False
-    else:
-        return True
-
-
 def es_valida(pos, filas, columnas):
     r, c = pos
     # Ahora funciona para cualquier tamaño de tablero
